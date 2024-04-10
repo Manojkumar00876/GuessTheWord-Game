@@ -9,6 +9,14 @@
 <h1 align="center" >Guess the word</h1>
 <h2 align="center" th:text="${word}">Hello world!</h2>
 <hr>
+<div align="center">
+    <form action="homepage" method="get">
+        <label>Guess the character</label>
+        <input type="text" name="inputCharacter">
+        <button type="submit">Try</button>
+    </form>
+    <h1 align="center" th:text="${result}"></h1>
+</div>
 
 
 
