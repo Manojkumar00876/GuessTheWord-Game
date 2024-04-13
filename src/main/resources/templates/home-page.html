@@ -16,6 +16,14 @@
         <button type="submit">Try</button>
     </form>
     <h1 align="center" th:text="${result}"></h1>
+    <h1 align="top" th:text="${attempts}"></h1>
+
+
+    <form action="hint" method="get">
+        <label>hint</label>
+        <h1 align="top" th:text="${hints}"></h1>
+        <button type="submit">hint</button>
+    </form>
 </div>
 
 
